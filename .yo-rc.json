@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.awtana.samplewebapp"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "monolith",
+    "baseName": "SampleWebApp",
+    "packageName": "com.awtana.samplewebapp",
+    "packageFolder": "com/awtana/samplewebapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZGNiNWU4YmRiZWEzNzZkM2Y0NTNmZGRkNzNhMjAzZmUxYzUzZDE1MWY1MzI1ZjQ1MjcxNjNiMjNkZGQxYTE3MmZjMTgxYTVmM2VjZTdkOGU4MTJjYjNiZjRmYzA0MDdmMTU3YzgyMGQwMDYzNDVjNThkMDZiNmY4N2FhOTY4ZDc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "simplex",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1591293442536,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
