@@ -1,0 +1,51 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "middleName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "unique"
+            ]
+        },
+        {
+            "fieldName": "phone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "countryCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "birthDate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20200614010834",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "client",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}
